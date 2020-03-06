@@ -11,6 +11,8 @@ def linear_search(arr, x):
     for i, value in enumerate(arr):
         if value == x:
             return i
+    return "Element not in the list"
+
 
 
 def main():

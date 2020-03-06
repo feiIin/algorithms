@@ -5,8 +5,8 @@
 
 def linear_search(arr, x):
     """
-    Return an int
-    function to return the position of a given element in an array
+    return the position of a given element in an array
+    or a string if the element is not in the list
     """
     for i, value in enumerate(arr):
         if value == x:
